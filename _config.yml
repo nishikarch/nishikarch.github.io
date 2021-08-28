@@ -28,7 +28,7 @@ twitter_username: nishiharakaz
 github_username: nishikarch
 
 # Build settings
-theme: minima
+theme: jekyll-theme-lanyon
 plugins:
   - jekyll-feed
 # Exclude from processing.
