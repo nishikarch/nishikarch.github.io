@@ -12,6 +12,15 @@ body {
   width: calc(100% - 40px);
 }
 
+a {
+  color: rgb(38, 139, 210);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   border-bottom: 1px solid #ccc;
   display: block;
@@ -41,6 +50,7 @@ header a {
   margin-top: 20px;
 }
 
+.content blockquote,
 .content h1,
 .content h2,
 .content p,
