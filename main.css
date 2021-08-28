@@ -77,7 +77,10 @@ footer {
   display: flex;
 }
 
-.columns .column {
+.columns .left {
+  flex: 3;
+}
+.columns .right {
   flex: 1;
 }
 
