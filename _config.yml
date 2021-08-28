@@ -28,8 +28,6 @@ twitter_username: nishiharakaz
 github_username: nishikarch
 
 # Build settings
-theme: jekyll-theme-lanyon
-remote_theme: poole/lanyon
 plugins:
   - jekyll-feed
 # Exclude from processing.

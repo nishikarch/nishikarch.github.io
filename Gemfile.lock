@@ -174,11 +174,6 @@ GEM
     jekyll-theme-hacker (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-lanyon (1.1.0)
-      jekyll (~> 3.3)
-      jekyll-feed (~> 0.9)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.1)
     jekyll-theme-leap-day (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
@@ -280,7 +275,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 219)
   jekyll-feed (~> 0.12)
-  jekyll-theme-lanyon
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

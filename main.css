@@ -1,0 +1,76 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222;
+  font: 20px/36px Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  margin-bottom: 40px;
+  padding: 40px 0;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font: 36px/48px -apple-system, BlinkMacSystemFont, Helvetica, serif;
+}
+header h2 {
+  font: 18px -apple-system, BlinkMacSystemFont, Helvetica, serif;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content h1,
+.content h2,
+.content p,
+.content ol
+.content ul {
+  margin: 20px 0;
+}
+
+.content li {
+  margin-left: 20px;
+}
+
+footer {
+  color: #666;
+  font-size: 14px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.columns {
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  display: flex;
+}
+
+.columns .column {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
