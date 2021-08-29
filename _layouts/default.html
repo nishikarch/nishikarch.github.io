@@ -23,7 +23,7 @@
           <a href="{{ '/about' | relative_url }}" {% if page.name == 'about.md' %}class="current"{% endif %}>About</a>
         </li>
         <li>
-          <a href="{{ '/reading' | relative_url }}" {% if page.name == 'reading.md' %}class="current"{% endif %}>Reading club</a>
+          <a href="{{ '/reading' | relative_url }}" {% if page.name == 'reading.md' %}{% endif %}{% if page.id %}class="current"{% endif %}>Reading club</a>
         </li>
         <li>
           <a href="{{ '/topics' | relative_url }}" {% if page.name == 'topics.md' %}class="current"{% endif %}>Topics</a>
