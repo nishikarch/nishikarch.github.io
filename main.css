@@ -101,11 +101,17 @@ nav li .current {
   margin: 20px 0;
 }
 
+.content h1 {
+  font-size: 28px;
+}
+
 .content h2 {
+  font-size: 22px;
   margin-top: 20px;
 }
 
 .content h3 {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
