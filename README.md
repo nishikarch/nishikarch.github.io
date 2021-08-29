@@ -7,6 +7,5 @@ This Website is for the reading club of Feminsit Archaeology in Japan, started i
 ```sh
 $ git clone git@github.com:nishikarch/feministarchaeologyjapan.git
 $ cd feministarchaeologyjapan
-$ bundle install
-$ bundle exec jekyll serve --livereload
+$ make watch
 ```

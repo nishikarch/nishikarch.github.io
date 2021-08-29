@@ -23,6 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   日本考古学・民俗学に関わりをもつ有志によって運営されているフェミニスト考古学勉強会のサイトです。
 baseurl: '/feministarchaeologyjapan'
+permalink: pretty
 url: 'feministarchaeology.com'
 twitter_username: nishiharakaz
 github_username: nishikarch

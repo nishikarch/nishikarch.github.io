@@ -7,28 +7,33 @@
     <link rel="stylesheet" href="{{ '/main.css' | relative_url }}" />
   </head>
   <body>
-    <header class="columns">
-      <div class="column left">
-        <h1><a href="{{ '/' | relative_url }}">フェミニスト考古学<br>読書会</a></h1>
-        <h2>
-          <a href="{{ '/' | relative_url }}">Feminist Archaeology Reading Club in Japan</a>
-        </h2>
-      </div>
-      <div class="column right">
-        <a href="{{ '/about' | relative_url }}">About</a>
-      </div>
-      </div>
-      <div class="column right">
-        <a href="{{ '/reading' | relative_url }}">Reading Club</a>
-      </div>
-     </div>
-      <div class="column right">
-        <a href="{{ '/topics' | relative_url }}">Topics</a>
-      </div>
+    <header role="heading">
+      <h1>
+        <a href="{{ '/' | relative_url }}">フェミニスト考古学<br />読書会</a>
+      </h1>
+      <h2>
+        <a href="{{ '/' | relative_url }}"
+          >Feminist Archaeology Reading Club in Japan</a
+        >
+      </h2>
     </header>
-    <section class="content">{{ content }}</section>
+    <nav role="navigation">
+      <ul>
+        <li>
+          <a href="{{ '/about' | relative_url }}" {% if page.name == 'about.md' %}class="current"{% endif %}>About</a>
+        </li>
+        <li>
+          <a href="{{ '/reading' | relative_url }}" {% if page.name == 'reading.md' %}class="current"{% endif %}>Reading club</a>
+        </li>
+        <li>
+          <a href="{{ '/topics' | relative_url }}" {% if page.name == 'topics.md' %}class="current"{% endif %}>Topics</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="content" role="article">{{ content }}</section>
     <footer>
-      Copyright &copy; 2021 Feminist archaeology reading club of Japan. This website is
+      Copyright &copy; 2021 Feminist Archaeology Reading Club of Japan. This
+      website is
       <a href="https://github.com/nishikarch/feministarchaeologyjapan"
         >open source</a
       >.

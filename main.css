@@ -1,14 +1,21 @@
-html, body, * {
+/*
+ * Reset
+ */
+
+* {
   margin: 0;
   padding: 0;
 }
 
+/*
+ * General
+ */
+
 body {
   color: #222;
-  font: 20px/36px Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
+  font: 18px -apple-system, BlinkMacSystemFont, Helvetica, serif;
   margin: 0 auto;
   max-width: 800px;
-  padding: 0 20px;
   width: calc(100% - 40px);
 }
 
@@ -21,11 +28,13 @@ a:hover {
   text-decoration: underline;
 }
 
+/*
+ * Header
+ */
+
 header {
-  border-bottom: 1px solid #ccc;
   display: block;
-  margin-bottom: 40px;
-  padding: 40px 0;
+  margin-top: 20px;
 }
 
 header h1,
@@ -35,10 +44,10 @@ header h2 {
 }
 
 header h1 {
-  font: 36px/48px -apple-system, BlinkMacSystemFont, Helvetica, serif;
+  font: 32px/48px -apple-system, BlinkMacSystemFont, Helvetica, serif;
 }
 header h2 {
-  font: 18px -apple-system, BlinkMacSystemFont, Helvetica, serif;
+  font: 16px/24px -apple-system, BlinkMacSystemFont, Helvetica, serif;
 }
 
 header a {
@@ -46,44 +55,71 @@ header a {
   text-decoration: none;
 }
 
+/*
+ * Navigation
+ */
+
+nav {
+  align-content: center;
+  border: solid #ccc;
+  border-width: 1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+nav li {
+  display: inline-flex;
+  flex: 1;
+  list-style: none;
+}
+
+nav li a {
+  color: inherit;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li .current {
+  font-weight: 600;
+}
+
+/*
+ * Content
+ */
+
 .content {
+  font: 20px/36px Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
   margin-top: 20px;
 }
 
 .content blockquote,
-.content h1,
-.content h2,
 .content p,
 .content ol
 .content ul {
   margin: 20px 0;
 }
 
+.content h2 {
+  margin-top: 20px;
+}
+
+.content h3 {
+  margin-bottom: 20px;
+}
+
 .content li {
   margin-left: 20px;
 }
+
+/*
+ * Footer
+ */
 
 footer {
   color: #666;
   font-size: 14px;
   margin: 40px 0;
   text-align: center;
-}
-
-.columns {
-  align-items: center;
-  justify-content: space-between;
-  justify-items: center;
-  display: flex;
-}
-
-.columns .left {
-  flex: 3;
-}
-.columns .right {
-  flex: 1;
-}
-
-.right {
-  text-align: right;
 }
