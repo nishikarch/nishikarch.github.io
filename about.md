@@ -8,7 +8,7 @@ permalink: /about/
 
 This is the website of the Feminist Archaeology reading club in Japan, started in Fall 2021.
 
-日本考古学・民俗学に関わりをもつ有志によって運営されているフェミニスト考古学勉強会のサイトです。読書会はオンラインで行われています。
+日本考古学・民俗学に関わりをもつ有志によって運営されているフェミニスト考古学読書会のサイトです。読書会はオンラインで行われています。
  
 ## People
 
