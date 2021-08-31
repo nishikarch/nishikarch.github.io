@@ -1,7 +1,8 @@
 ---
 layout: post
 categories: notes
-title: フェミニスト考古学とジェンダー考古学 (Fries, JE and Gutsmiedl-Schümann D. 2020 Feminist archaeologies and gender studies)
+title-en: Fries, JE and Gutsmiedl-Schümann D. 2020 Feminist archaeologies and gender studies
+title-ja: フェミニスト考古学とジェンダー考古学
 tags: フェミニズム、ジェンダー、考古学史、女性学、男性バイアス、スタンドポイントセオリー、二項対立、ポスト構造主義、公平性の問題、イメージ
 reporter: 金崎由布子
 paper: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199567942.001.0001/oxfordhb-9780199567942-e-037

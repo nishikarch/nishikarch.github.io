@@ -119,6 +119,10 @@ nav li .current {
   margin-left: 20px;
 }
 
+.content li p {
+  margin: 0;
+}
+
 /*
  * Footer
  */
