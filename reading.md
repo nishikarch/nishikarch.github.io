@@ -7,9 +7,7 @@ title: Reading
 
 ### Next meeting
 
-- [2021-９月下旬 報告者：石田温美](https://archaeology-gender-europe.org/docs/silvia.pdf)
-
-  [Tomášková, Silvia. 2007. Mapping a Future: Archaeology, Feminism, and Scientific Practice](https://archaeology-gender-europe.org/docs/silvia.pdf)
+- [2021-12月〜2022　1月 報告者：未定]
 
 ## これまでの読書会
 
