@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<p><a href="{{ '/topics' | relative_url }}">◂ Back to topic list</a></p>
+
+<h1>{{page.title-ja}}</h1>
+<h2>報告文献：{{page.title-en}}</h2>
+<h3>{{page.date | date: "%B %d, %Y"}}</h3>
+
+
+<a href="{{page.paper}}">See original paper</a>
+
+<p>
+  ＊このメモは読書会の議事録として製作されたものです。
+</p>
+
+{{ content }}
