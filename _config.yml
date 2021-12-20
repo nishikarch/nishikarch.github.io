@@ -28,6 +28,10 @@ url: 'feministarchaeology.com'
 twitter_username: nishiharakaz
 github_username: nishikarch
 
+collections:
+  topics:
+    output: true
+
 # Build settings
 plugins:
   - jekyll-feed
