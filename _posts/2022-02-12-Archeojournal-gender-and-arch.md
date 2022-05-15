@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: notes
-title-en: 'Gender and Archaeology'in Japan
+title-en: 'Hishida, Junko. Ed., 2021. Gender and Archaeology'
 title-ja: 考古学ジャーナル　2021年12月号 特集：ジェンダーと考古学 を読む
 tags: フェミニズム、ジェンダー、科学史、日本考古学、考古学者、博物館、博物館展示
 reporter: 石田温美
